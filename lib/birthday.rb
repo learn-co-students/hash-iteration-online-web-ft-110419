@@ -4,8 +4,12 @@
 #   "Amanda" => 27
 # }
 
-def happy_birthday(birthday_kids)
-  # add your code snippet here!
+def age_appropriate_birthday(birthday_kids)
+ age_appropriate_birthday.each do |kids_name, age|
+   if age ==
+    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
+  end
+ birthday_kids
 end
 
 
